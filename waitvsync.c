@@ -9,7 +9,7 @@ int main()
     while (1)
     {
         waitvsync();
-        printf(".\n");
+        printf(".");
 
         i++;
         if ((i % 30) == 0) {
